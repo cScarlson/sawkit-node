@@ -20,6 +20,8 @@ A back-end Facade over the popular 'ws' module for Node, allowing for event emis
             .on('message', function(data){
               console.log('MESSAGE!', data, typeof data);
             });
+            
+            $ws.sendBinary(MyBinaryData);
           
         });
 
