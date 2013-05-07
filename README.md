@@ -5,6 +5,8 @@ A back-end Facade over the popular 'ws' module for Node, allowing for event emis
 
 **Quick-Start**
 
+        var $ws = require('sawKit-node');
+        
         $ws({port: 8080}).ready(function($ws, ws){
           
           $ws.send('Tonight at 9...')

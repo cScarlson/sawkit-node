@@ -1,0 +1,31 @@
+{
+  "name": "sawKit-node",
+  "description": "A back-end Facade over the popular 'ws' module for Node, allowing for event emissions and custom event reception.",
+  "dependencies": {
+    "ws": "*"
+  },
+  "readmeFilename": "README.md",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "$ws({host: '0.0.0.0', port: 9696}).ready(function($ws, ws){console.log('success!')});"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cScarlson/sawKit-node"
+  },
+  "keywords": [
+    "sawKit",
+    "sawKit-node",
+    "sawKit-client",
+    "ws",
+    "$ws",
+    "websocket",
+    "socket",
+    "realtime",
+    "socket.io",
+    "socketIO"
+  ],
+  "author": "Cody Carlson",
+  "license": "GPL"
+}
