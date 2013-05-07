@@ -5,6 +5,8 @@ A back-end Facade over the popular 'ws' module for Node, allowing for event emis
 
 **Quick-Start**
 
+`npm install sawkit-node` or `cd node_modules` and `git clone https://github.com/cScarlson/sawkit-node.git`.
+
         var $ws = require('sawkit-node');
         
         $ws({port: 8080}).ready(function($ws, ws){
