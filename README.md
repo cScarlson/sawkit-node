@@ -5,7 +5,7 @@ A back-end Facade over the popular 'ws' module for Node, allowing for event emis
 
 **Quick-Start**
 
-        var $ws = require('sawKit-node');
+        var $ws = require('sawkit-node');
         
         $ws({port: 8080}).ready(function($ws, ws){
           
@@ -20,8 +20,6 @@ A back-end Facade over the popular 'ws' module for Node, allowing for event emis
             .on('message', function(data){
               console.log('MESSAGE!', data, typeof data);
             });
-            
-          $ws.sendBinary(MyBinaryData);
           
         });
 

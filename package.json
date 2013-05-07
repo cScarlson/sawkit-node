@@ -1,5 +1,5 @@
 {
-  "name": "sawKit-node",
+  "name": "sawkit-node",
   "description": "A back-end Facade over the popular 'ws' module for Node, allowing for event emissions and custom event reception.",
   "dependencies": {
     "ws": "*"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cScarlson/sawKit-node"
+    "url": "https://github.com/cScarlson/sawkit-node"
   },
   "keywords": [
     "sawKit",
