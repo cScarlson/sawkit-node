@@ -21,7 +21,7 @@ A back-end Facade over the popular 'ws' module for Node, allowing for event emis
               console.log('MESSAGE!', data, typeof data);
             });
             
-            $ws.sendBinary(MyBinaryData);
+          $ws.sendBinary(MyBinaryData);
           
         });
 
